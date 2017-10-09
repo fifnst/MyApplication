@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev.afif.myapplication.MainActivity">
+    <LinearLayout
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judul_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:text="Nama"/>
+
+        <TextView
+            android:id="@+id/judul_ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_nama"
+            android:text="Tempat, Tangal Lahir" />
+
+        <TextView
+            android:id="@+id/judul_jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_ttl"
+            android:text="Jurusan" />
+
+        <TextView
+            android:id="@+id/judul_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_jurusan"
+            android:text="Fakultas" />
+
+        <TextView
+            android:id="@+id/judul_alamat_asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_fakultas"
+            android:text="Alamat Asal" />
+
+        <TextView
+            android:id="@+id/judul_alamat_kos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_alamat_asal"
+            android:text="Alamat Kos" />
+
+        <TextView
+            android:id="@+id/judul_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_alamat_kos"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/judul_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/judul_email"
+            android:text="Nomor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titikdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titikdua_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:text=":"/>
+
+        <TextView
+            android:id="@+id/titikdua_ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_nama"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_ttl"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_jurusan"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_alamat_asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_fakultas"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_alamat_kos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_alamat_asal"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_alamat_kos"
+            android:layout_marginTop="16dp"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/titikdua_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/titikdua_email"
+            android:text=":" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/isi_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:text="Ahmad Afif"/>
+
+        <TextView
+            android:id="@+id/isi_ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_nama"
+            android:text="Ujunggading, 11 Jan 1996" />
+
+        <TextView
+            android:id="@+id/isi_jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_ttl"
+            android:text="Teknik Informatika" />
+
+        <TextView
+            android:id="@+id/isi_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_jurusan"
+            android:text="Sains dan Teknologi" />
+
+        <TextView
+            android:id="@+id/isi_alamat_asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_fakultas"
+            android:text="Jl. Jawa Dusun brastagi ujungading pasaman barat" />
+
+        <TextView
+            android:id="@+id/isi_alamat_kos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi_alamat_asal"
+            android:layout_marginBottom="10dp"
+            android:text="Jl. desa cipadung, Cibiru, Bandung, Jawa Barat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_alamat_kos"
+            android:text="afif.nasution@gmail.com" />
+
+        <TextView
+            android:id="@+id/isi_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_below="@+id/isi_email"
+            android:text="082387100452" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
